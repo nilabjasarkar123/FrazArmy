@@ -2,7 +2,8 @@
 
 def factorial(n):
    if n == 0:
-       return n
+      #I think you have made a typo by returning n 
+       return 1
    else:
        return n*factorial(n-1)
 
